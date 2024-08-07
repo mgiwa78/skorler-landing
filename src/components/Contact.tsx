@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="flex overflow-hidden z-10 flex-col mt-24 w-full bg-primary max-md:mt-10 max-md:max-w-full">
+    <div className="flex overflow-hidden z-10 flex-col  w-full bg-primary max-md:mt-10 max-md:max-w-full">
       <div className="flex relative flex-col justify-center items-center px-20 py-20 w-full min-h-[865px] max-md:px-5 max-md:max-w-full">
         <img
           loading="lazy"

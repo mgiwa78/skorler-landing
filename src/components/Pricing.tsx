@@ -43,7 +43,7 @@ const Pricing: React.FC = () => {
       >
         <div className="flex flex-col px-8 max-w-full  w-[1280px] max-md:px-5">
           <div className="flex relative flex-wrap gap-5 justify-center items-start w-full max-md:max-w-full">
-            <div className="flex overflow-hidden flex-col flex-1 shrink bg-white rounded-2xl shadow-lg basis-0 min-w-[240px]">
+            <div className="flex overflow-hidden flex-col flex-1 shrink bg-white rounded-2xl shadow-lg basis-0 min-w-[300px] max-w-[384px]">
               <div className="flex flex-col px-8 pt-8 w-full text-center max-md:px-5">
                 <div className="flex relative flex-col w-full">
                   <div className="flex z-0 flex-col w-full text-xl font-semibold text-gray-900">
@@ -57,7 +57,7 @@ const Pricing: React.FC = () => {
                   <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Suitable for institutes and agencies
                   </div>
-                  <div className="z-0 flex mt-2 text-5xl font-semibold tracking-tighter leading-none text-gray-900 relative max-md:text-4xl">
+                  <div className="z-0 flex mt-2 text-5xl font-semibold tracking-tighter justify-center items-center gap-2 leading-none text-gray-900 relative max-md:text-4xl">
                     <div className=" mt-2 text-[15px] font-normal pt-0.5 leading-normal self-stretch h-6 text-primary whitespace-nowrap bg-sky-50 rounded-3xl bottom-[10px] left-[35px] min-h-[24px] w-[53px]">
                       From
                     </div>
@@ -152,7 +152,7 @@ const Pricing: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="flex overflow-hidden flex-col flex-1 shrink bg-white rounded-2xl shadow-md basis-0 min-w-[240px]">
+            <div className="flex overflow-hidden flex-col flex-1 shrink bg-white rounded-2xl shadow-md basis-0 min-w-[300px] max-w-[384px]">
               <div className="flex flex-col px-8 pt-8 w-full text-center max-md:px-5">
                 <div className="flex relative flex-col w-full">
                   <div className="flex z-0 flex-col w-full text-xl font-semibold text-gray-900">
@@ -166,7 +166,7 @@ const Pricing: React.FC = () => {
                   <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Suitable for publishers and editors
                   </div>
-                  <div className="flex z-0 mt-2 text-5xl font-semibold tracking-tighter leading-none text-gray-900 max-md:text-4xl relative">
+                  <div className="flex z-0 mt-2 text-5xl font-semibold tracking-tighter justify-center items-center gap-2 leading-none text-gray-900 max-md:text-4xl relative">
                     <div className="mt-2 text-[15px] font-normal pt-0.5 leading-normal self-stretch h-6 text-primary whitespace-nowrap bg-sky-50 rounded-3xl bottom-[10px] left-[35px] min-h-[24px] w-[53px]">
                       From
                     </div>
@@ -251,7 +251,7 @@ const Pricing: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="flex overflow-hidden flex-col flex-1 shrink bg-white rounded-2xl shadow-lg basis-0 min-w-[240px]">
+            <div className="flex overflow-hidden flex-col flex-1 shrink bg-white rounded-2xl shadow-lg basis-0 min-w-[300px] max-w-[384px]">
               <div className="flex flex-col px-8 pt-8 w-full text-center max-md:px-5">
                 <div className="flex relative flex-col w-full">
                   <div className="flex z-0 flex-col w-full text-xl font-semibold text-gray-900">
@@ -265,7 +265,7 @@ const Pricing: React.FC = () => {
                   <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Suitable for higher institutions
                   </div>
-                  <div className="z-0 flex mt-2 text-5xl font-semibold tracking-tighter leading-none text-gray-900 max-md:text-4xl relative">
+                  <div className="z-0 flex mt-2 text-5xl font-semibold tracking-tighter justify-center items-center gap-2 leading-none text-gray-900 max-md:text-4xl relative">
                     <div className=" mt-2 text-[15px] font-normal pt-0.5 leading-normal self-stretch h-6 text-primary whitespace-nowrap bg-sky-50 rounded-3xl bottom-[10px] left-[35px] min-h-[24px] w-[53px]">
                       From
                     </div>

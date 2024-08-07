@@ -15,6 +15,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import Header from "@/components/Header";
 
 // const Home: React.FC = () => {
 //   return (
@@ -38,6 +39,8 @@ const Home: React.FC = () => {
   return (
     <div className="flex overflow-hidden flex-col bg-slate-50">
       <div className="flex flex-col items-center w-full max-md:max-w-full">
+        <Header />
+
         <Hero />
         <About />
         <Features />
