@@ -49,13 +49,13 @@ const Contact: React.FC = () => {
                       Get in Touch{" "}
                       <span className="text-customGreen">with Us</span>
                     </div>
-                    <div className="mt-3 text-base font-light leading-7 max-md:max-w-full">
+                    <div className="mt-3  font-manrope text-base font-light leading-7 max-md:max-w-full">
                       We’re here to help! Whether you have questions about
                       Skorler, need support, or want to schedule a demo, our
                       team is ready to assist you.
                     </div>
                   </div>
-                  <div className="flex flex-col mt-10 max-w-full text-white w-[394px]">
+                  <div className="flex flex-col mt-10 max-w-full  font-manrope text-white w-[394px]">
                     <div className="flex flex-col w-full">
                       <div className="flex flex-col max-w-full w-[340px]">
                         <div className="text-2xl font-semibold leading-none">
@@ -114,11 +114,11 @@ const Contact: React.FC = () => {
               <div className="flex flex-col ml-5 w-[43%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow max-md:max-w-full">
                   <div className="flex flex-col w-full max-md:max-w-full">
-                    <div className="flex gap-5 items-start w-full max-md:max-w-full">
+                    <div className="flex gap-5  font-manrope items-start w-full max-md:max-w-full">
                       <div className="flex flex-col flex-1 shrink basis-0">
                         <div className="flex flex-col w-full">
                           <div className="flex flex-col w-full">
-                            <div className="text-sm font-medium leading-none text-slate-50">
+                            <div className="text-sm font-normal font-manrope leading-none text-slate-50">
                               First name
                             </div>
                             <div className="flex overflow-hidden gap-2 items-center px-4 py-3 mt-1.5 w-full text-base text-gray-500 bg-white rounded-lg shadow-sm">
@@ -137,7 +137,7 @@ const Contact: React.FC = () => {
                       <div className="flex flex-col flex-1 shrink basis-0">
                         <div className="flex flex-col w-full">
                           <div className="flex flex-col w-full">
-                            <div className="text-sm font-medium leading-none text-slate-50">
+                            <div className="text-sm font-normal font-manrope leading-none text-slate-50">
                               Last name
                             </div>
                             <div className="flex overflow-hidden gap-2 items-center px-4 py-3 mt-1.5 w-full text-base text-gray-500 bg-white rounded-lg shadow-sm">
@@ -157,7 +157,7 @@ const Contact: React.FC = () => {
                     <div className="flex flex-col mt-6 w-full whitespace-nowrap max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
-                          <div className="text-sm font-medium leading-none text-slate-50">
+                          <div className="text-sm font-normal font-manrope leading-none text-slate-50">
                             Email
                           </div>
                           <div className="flex overflow-hidden gap-2 items-center px-4 py-3 mt-1.5 w-full text-base text-gray-500 bg-white rounded-lg shadow-sm max-md:max-w-full">
@@ -176,7 +176,7 @@ const Contact: React.FC = () => {
                     <div className="flex flex-col mt-6 w-full max-md:max-w-full">
                       <div className="flex flex-col w-full max-md:max-w-full">
                         <div className="flex flex-col w-full max-md:max-w-full">
-                          <div className="text-sm font-medium leading-none text-slate-50">
+                          <div className="text-sm font-normal font-manrope leading-none text-slate-50">
                             Phone number
                           </div>
                           <div className="flex overflow-hidden gap-2 items-center px-4 py-3 mt-1.5 w-full text-base text-gray-500 bg-white rounded-lg shadow-sm max-md:max-w-full">
@@ -194,7 +194,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex flex-col mt-6 w-full max-md:max-w-full">
                       <div className="flex flex-col w-full min-h-[78px] max-md:max-w-full">
-                        <div className="text-sm font-medium leading-none text-slate-50">
+                        <div className="text-sm font-normal font-manrope leading-none text-slate-50">
                           Subject
                         </div>
                         <div className="flex overflow-hidden gap-2 items-center px-4 py-3 mt-1.5 w-full text-base text-gray-500 bg-white rounded-lg shadow-sm max-md:max-w-full">
@@ -212,7 +212,7 @@ const Contact: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex flex-col mt-6 w-full text-sm font-medium leading-none whitespace-nowrap min-h-[154px] text-slate-50 max-md:max-w-full">
+                    <div className="flex flex-col mt-6 w-full text-sm font-normal font-manrope leading-none whitespace-nowrap min-h-[154px] text-slate-50 max-md:max-w-full">
                       <div className="flex flex-col flex-1 w-full max-md:max-w-full">
                         <div className="flex flex-col flex-1 w-full max-md:max-w-full">
                           <div>Message</div>
@@ -233,7 +233,7 @@ const Contact: React.FC = () => {
                           name="agree"
                           checked={formData.agree}
                           onChange={handleChange}
-                          className="form-checkbox h-5 w-5 text-customGreen"
+                          className="form-checkbox  font-manrope h-5 w-5 text-customGreen"
                         />
                       </div>
                       <div className="flex-1 shrink self-stretch my-auto text-base font-medium basis-0 text-slate-50 max-md:max-w-full">
@@ -246,7 +246,7 @@ const Contact: React.FC = () => {
                   <div className="flex justify-center items-center flex-col mt-8 w-full text-center text-base font-medium text-white max-md:max-w-full">
                     <button
                       type="submit"
-                      className=" items-center w-full text-center rounded-lg bg-customGreen px-5 py-3 shadow-sm max-md:max-w-full"
+                      className=" font-manrope items-center w-full text-center rounded-lg bg-customGreen px-5 py-3 shadow-sm max-md:max-w-full"
                     >
                       Send message
                     </button>

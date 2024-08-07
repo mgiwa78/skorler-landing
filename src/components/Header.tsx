@@ -4,7 +4,13 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="flex overflow-hidden relative flex-wrap gap-5 justify-between items-center self-stretch px-20 py-3.5 w-full bg-slate-50 bg-opacity-80 max-md:px-5 max-md:max-w-full">
+    <div
+      style={{
+        background: "rgba(250, 252, 254, 0.80)",
+        backdropFilter: "blur(10px)",
+      }}
+      className="flex overflow-hidden relative flex-wrap gap-5 justify-between items-center self-stretch px-20 py-3.5 w-full bg-slate-50 bg-opacity-80 max-md:px-5 max-md:max-w-full"
+    >
       <div className="flex gap-2 items-center self-stretch">
         <img
           loading="lazy"
@@ -18,19 +24,19 @@ const Header = () => {
         />
       </div>
       <div className="flex flex-wrap items-center self-stretch my-auto text-base font-medium tracking-wide leading-none text-gray-900 max-md:max-w-full">
-        <div className="gap-2 self-stretch px-4 py-2 my-auto">
+        <div className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto">
           About Skorler
         </div>
-        <div className="gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
+        <div className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
           Features
         </div>
-        <div className="gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
+        <div className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
           Pricing
         </div>
-        <div className="gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
+        <div className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
           Feedback
         </div>
-        <div className="gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
+        <div className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto whitespace-nowrap">
           Contact
         </div>
       </div>

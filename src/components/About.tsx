@@ -16,7 +16,7 @@ const About: React.FC = () => {
                     digital platform
                   </span>
                 </div>
-                <div className="mt-5 text-base leading-7 max-md:max-w-full">
+                <div className="mt-5 text-base leading-7 max-md:max-w-full  font-manrope">
                   designed to facilitate end-to-end supervision and
                   collaboration on academic and process-related work. Our
                   mission is to transform the status quo of academic and

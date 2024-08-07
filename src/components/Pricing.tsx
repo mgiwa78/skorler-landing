@@ -26,7 +26,7 @@ const Pricing: React.FC = () => {
             with Skorler.
           </div>
         </div>
-        <div className="gap-3 mt-10 text-base font-medium leading-6 text-textColor-primary max-md:max-w-full">
+        <div className="gap-3 mt-10 text-base font-medium leading-6  font-manrope text-textColor-primary max-md:max-w-full">
           Talk to our <span className="font-bold text-primary">sales reps</span>{" "}
           for fitting plan at affordable price
         </div>
@@ -54,7 +54,7 @@ const Pricing: React.FC = () => {
                     />
                     <div className="mt-5 ">Starter plan</div>
                   </div>
-                  <div className="z-0 mt-2 text-slate-600">
+                  <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Suitable for institutes and agencies
                   </div>
                   <div className="z-0 flex mt-2 text-5xl font-semibold tracking-tighter leading-none text-gray-900 relative max-md:text-4xl">
@@ -63,13 +63,15 @@ const Pricing: React.FC = () => {
                     </div>
                     $500/mth
                   </div>
-                  <div className="z-0 mt-2 text-slate-600">Billed annually</div>
+                  <div className="z-0 mt-2 text-slate-600  font-manrope">
+                    Billed annually
+                  </div>
                 </div>
               </div>
               <div className="flex flex-col justify-center p-8 w-full font-medium text-white bg-[#FAFCFE] max-md:px-5">
                 <div className="flex flex-col w-full">
                   <div className="flex items-start w-full rounded-lg">
-                    <div className="overflow-hidden flex-1 shrink gap-2 self-stretch px-5 py-3 w-full bg-primary rounded-lg text-center shadow-sm min-w-[240px]">
+                    <div className="overflow-hidden flex-1 shrink gap-2 self-stretch cursor-pointer px-5 py-3 w-full bg-primary rounded-lg text-center shadow-sm min-w-[240px]">
                       Request a Quote
                     </div>
                   </div>
@@ -161,7 +163,7 @@ const Pricing: React.FC = () => {
                     />
                     <div className="mt-5">Conference plan</div>
                   </div>
-                  <div className="z-0 mt-2 text-slate-600">
+                  <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Suitable for publishers and editors
                   </div>
                   <div className="flex z-0 mt-2 text-5xl font-semibold tracking-tighter leading-none text-gray-900 max-md:text-4xl relative">
@@ -170,7 +172,7 @@ const Pricing: React.FC = () => {
                     </div>
                     $800/mth
                   </div>
-                  <div className="z-0 mt-2 text-slate-600">
+                  <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Billed annually.
                   </div>
                 </div>
@@ -178,7 +180,7 @@ const Pricing: React.FC = () => {
               <div className="flex flex-col justify-center p-8 w-full font-medium text-white bg-[#FAFCFE] max-md:px-5">
                 <div className="flex flex-col w-full">
                   <div className="flex items-start w-full rounded-lg">
-                    <div className="overflow-hidden flex-1 shrink gap-2 self-stretch px-5 py-3 w-full bg-primary rounded-lg text-center shadow-sm min-w-[240px]">
+                    <div className="overflow-hidden flex-1 shrink gap-2 self-stretch cursor-pointer px-5 py-3 w-full bg-primary rounded-lg text-center shadow-sm min-w-[240px]">
                       Request a Quote
                     </div>
                   </div>
@@ -260,7 +262,7 @@ const Pricing: React.FC = () => {
                     />
                     <div className="mt-5">Enterprise plan</div>
                   </div>
-                  <div className="z-0 mt-2 text-slate-600">
+                  <div className="z-0 mt-2 text-slate-600  font-manrope">
                     Suitable for higher institutions
                   </div>
                   <div className="z-0 flex mt-2 text-5xl font-semibold tracking-tighter leading-none text-gray-900 max-md:text-4xl relative">
@@ -277,7 +279,7 @@ const Pricing: React.FC = () => {
               <div className="flex flex-col justify-center p-8 w-full font-medium text-white bg-[#FAFCFE] max-md:px-5">
                 <div className="flex flex-col w-full">
                   <div className="flex items-start w-full rounded-lg">
-                    <div className="overflow-hidden flex-1 shrink gap-2 self-stretch px-5 py-3 w-full text-center bg-primary rounded-lg shadow-sm min-w-[240px]">
+                    <div className="overflow-hidden flex-1 shrink gap-2 self-stretch cursor-pointer px-5 py-3 w-full text-center bg-primary rounded-lg shadow-sm min-w-[240px]">
                       Request a Quote
                     </div>
                   </div>

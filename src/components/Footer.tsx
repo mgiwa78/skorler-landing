@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               alt="Zinmanship Logo"
             />
           </div>
-          <div className="mt-9 text-base leading-7 text-slate-600">
+          <div className="mt-9 text-base leading-7  font-manrope text-slate-600">
             Skorler is a cutting-edge digital platform designed to facilitate
             end-to-end supervision and collaboration on academic and
             process-related work.
@@ -51,13 +51,13 @@ const Footer: React.FC = () => {
             <br />
           </div>
         </div>
-        <div className="flex flex-col self-start mt-4">
-          <div className="self-start text-sm font-semibold tracking-wider leading-none uppercase text-slate-600">
+        <div className="flex flex-col self-start mt-4  font-manrope">
+          <div className=" font-manrope self-start text-sm font-semibold tracking-wider leading-none uppercase text-slate-600">
             Links
           </div>
-          <div className="mt-9 text-base font-medium leading-6 text-gray-900">
+          <div className="mt-9 text-base font-medium leading-6  font-manrope text-gray-900">
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/about"
             >
               About
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
             <br />
             <br />
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/features"
             >
               Features
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
             <br />
             <br />
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/pricing"
             >
               Pricing
@@ -81,20 +81,20 @@ const Footer: React.FC = () => {
             <br />
             <br />
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/testimonials"
             >
               Testimonial
             </Link>
           </div>
         </div>
-        <div className="flex flex-col self-start mt-4">
-          <div className="self-start text-sm font-semibold tracking-wider leading-none uppercase text-slate-600">
+        <div className="flex flex-col self-start mt-4  font-manrope">
+          <div className=" font-manrope self-start text-sm font-semibold tracking-wider leading-none uppercase text-slate-600">
             Help
           </div>
-          <div className="mt-8 text-base font-medium leading-6 text-primary">
+          <div className="mt-8 text-base font-medium  font-manrope leading-6 text-primary">
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/support"
             >
               Customer Support
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
             <br />
             <br />
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/delivery-details"
             >
               Delivery Details
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
             <br />
             <br />
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/terms-conditions"
             >
               Terms & Conditions
@@ -118,15 +118,15 @@ const Footer: React.FC = () => {
             <br />
             <br />
             <Link
-              className=" text-textColor-primary hover:text-primary"
+              className=" text-textColor-primary  font-manrope hover:text-primary cursor-pointer"
               href="/privacy-policy"
             >
               Privacy Policy
             </Link>
           </div>
         </div>
-        <div className="flex flex-col self-start mt-4 text-base">
-          <div className="self-start text-sm font-semibold tracking-wider leading-none uppercase text-slate-600">
+        <div className="flex flex-col self-start mt-4 text-base  font-manrope">
+          <div className="self-start text-sm font-semibold  font-manrope tracking-wider leading-none uppercase text-slate-600">
             Newsletter
           </div>
           <input
@@ -140,7 +140,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="relative shrink-0 mt-14 h-px bg-gray-300 max-md:mt-10 max-md:max-w-full" />
-      <div className="relative self-center mt-10 text-sm leading-loose text-center text-gray-900">
+      <div className=" font-manrope relative self-center mt-10 text-sm leading-loose text-center text-gray-900">
         © Copyright 2024, All Rights Reserved by Skorler
       </div>
     </div>
