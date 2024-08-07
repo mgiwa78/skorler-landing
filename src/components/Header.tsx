@@ -30,7 +30,7 @@ const Header = () => {
         />
       </div>
       <div
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 max-md:flex items-center cursor-pointer md:hidden"
+        className="absolute right-[20px] top-1/2 transform -translate-y-1/2 max-md:flex items-center cursor-pointer md:hidden"
         onClick={toggleMenu}
       >
         <div className="text-textColor-primary font-manrope text-base font-medium">
