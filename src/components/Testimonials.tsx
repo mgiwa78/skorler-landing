@@ -3,7 +3,10 @@ import SectionTitle from "./SectionTitle";
 
 const Testimonials: React.FC = () => {
   return (
-    <div className="lg:py-24 overflow-hidden py-10 px-5 bg-surface-light justify-center items-center flex flex-col">
+    <div
+      id="feedback"
+      className="lg:py-24 overflow-hidden py-10 px-5 bg-surface-light justify-center items-center flex flex-col"
+    >
       <SectionTitle title="FEEDBACK" />
       <div className="flex relative z-40 flex-col mt-10 mb-10 lg:mb-32 w-full text-center text-gray-900 max-w-[765px]">
         <div className="text-6xl font-bold leading-[65px]  max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">

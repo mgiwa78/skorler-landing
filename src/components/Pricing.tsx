@@ -4,6 +4,7 @@ import SectionTitle from "./SectionTitle";
 const Pricing: React.FC = () => {
   return (
     <div
+      id="pricing"
       style={{
         background: "url(/images/frame_18.png)",
       }}

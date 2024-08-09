@@ -4,6 +4,7 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <div
+      id="demo"
       style={{
         background: "url(images/frame_6980.png)",
         backgroundPosition: "center",

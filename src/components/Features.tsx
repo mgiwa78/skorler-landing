@@ -1,9 +1,24 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
+import DesignFlare2 from "./DesignFlare2";
+import DesignFlare3 from "./DesignFlare3";
 
 const Features: React.FC = () => {
   return (
-    <div className="flex justify-center px-5 items-center flex-col relative  w-full ">
+    <div
+      id="features"
+      className="flex justify-center px-5 items-center flex-col relative  w-full "
+    >
+      <div className=" absolute bottom-2/4 -right-40 z-30">
+        {" "}
+        <DesignFlare2 />
+      </div>
+      <div className=" absolute  bottom-2/3 right-36 z-30">
+        <DesignFlare3 />
+      </div>
+      <div className=" absolute  bottom-20 left-36 z-30">
+        <DesignFlare3 />
+      </div>
       <img
         className=" absolute hidden lg:block top-[-60px] right-[443px]"
         src="/icons/vector_9.svg"
@@ -20,7 +35,7 @@ const Features: React.FC = () => {
           platform for research and process management.
         </div>
       </div>
-      <div className="mt-16 justify-center items-center  max-w-screen-xl max-md:mt-10  w-full  max-md:max-w-full">
+      <div className="mt-16 z-40 justify-center items-center  max-w-screen-xl max-md:mt-10  w-full  max-md:max-w-full">
         <div className="flex gap-5 justify-center items-center max-md:flex-col">
           <div className="flex flex-col  max-w-6/12 w-full max-md:ml-0 max-md:w-full">
             <div className="flex overflow-hidden flex-col grow px-14 py-6 text-center rounded-2xl shadow-[7px_3px_15px_rgba(0,0,0,0.05)] max-md:px-5 max-md:mt-5 max-md:max-w-full">
@@ -61,7 +76,7 @@ const Features: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap gap-5 justify-center w-full items-center mt-6 text-center">
+      <div className="flex  z-40  flex-wrap gap-5 justify-center w-full items-center mt-6 text-center">
         <div className="flex overflow-hidden flex-col self-stretch pt-5 pb-9 my-auto rounded-2xl min-w-[240px] shadow-[7px_3px_15px_rgba(0,0,0,0.05)] w-full max-w-[413px]">
           <img
             loading="lazy"

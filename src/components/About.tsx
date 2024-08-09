@@ -3,9 +3,12 @@ import SectionTitle from "./SectionTitle";
 
 const About: React.FC = () => {
   return (
-    <div className="w-full max-w-[1288px] max-md:mt-10 max-md:max-w-full">
+    <div
+      id="about"
+      className="w-full max-w-[1288px] flex  justify-center items-center z-40 max-md:mt-10 max-md:max-w-full"
+    >
       <div className="container">
-        <div className="flex gap-5 max-md:flex-col px-5">
+        <div className="flex gap-5 justify-center items-center max-md:flex-col px-5">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col mt-32 w-full text-gray-900 max-md:mt-10 max-md:max-w-full">
               <SectionTitle title="ABOUT SKORLER" />

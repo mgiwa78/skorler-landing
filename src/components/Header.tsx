@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,46 +49,88 @@ const Header = () => {
           ✕
         </div>
         <div className="flex flex-col items-center gap-6">
-          <div className="text-textColor-primary font-manrope text-base font-medium">
+          <Link
+            href={"#about"}
+            className="text-textColor-primary font-manrope text-base font-medium"
+            onClick={toggleMenu}
+          >
             About Skorler
-          </div>
-          <div className="text-textColor-primary font-manrope text-base font-medium">
+          </Link>
+          <Link
+            href={"#features"}
+            onClick={toggleMenu}
+            className="text-textColor-primary font-manrope text-base font-medium"
+          >
             Features
-          </div>
-          <div className="text-textColor-primary font-manrope text-base font-medium">
+          </Link>
+          <Link
+            href={"#pricing"}
+            onClick={toggleMenu}
+            className="text-textColor-primary font-manrope text-base font-medium"
+          >
             Pricing
-          </div>
-          <div className="text-textColor-primary font-manrope text-base font-medium">
+          </Link>
+          <Link
+            href={"#feeback"}
+            onClick={toggleMenu}
+            className="text-textColor-primary font-manrope text-base font-medium"
+          >
             Feedback
-          </div>
-          <div className="text-textColor-primary font-manrope text-base font-medium">
+          </Link>
+          <Link
+            href={"#contact"}
+            onClick={toggleMenu}
+            className="text-textColor-primary font-manrope text-base font-medium"
+          >
             Contact
-          </div>
-          <div className="gap-2 rounded-lg cursor-pointer self-stretch px-4 py-4  my-auto text-base font-medium tracking-widest leading-none text-white bg-primary min-h-[48px]">
+          </Link>
+          <Link
+            href={"#demo"}
+            onClick={toggleMenu}
+            className="gap-2 rounded-lg cursor-pointer self-stretch px-4 py-4  my-auto text-base font-medium tracking-widest leading-none text-white bg-primary min-h-[48px]"
+          >
             Book a Demo
-          </div>
+          </Link>
         </div>
       </div>
       <div className="hidden md:flex flex-wrap items-center self-stretch my-auto text-base font-medium tracking-wide leading-none text-gray-900">
-        <div className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto">
+        <Link
+          href={"#about"}
+          className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto"
+        >
           About Skorler
-        </div>
-        <div className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto">
+        </Link>
+        <Link
+          href={"#features"}
+          className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto"
+        >
           Features
-        </div>
-        <div className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto">
+        </Link>
+        <Link
+          href={"#pricing"}
+          className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto"
+        >
           Pricing
-        </div>
-        <div className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto">
+        </Link>
+        <Link
+          href={"#feedback"}
+          className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto"
+        >
           Feedback
-        </div>
-        <div className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto">
+        </Link>
+        <Link
+          href={"#contact"}
+          className="text-textColor-primary font-manrope hover:text-primary cursor-pointer gap-2 self-stretch px-4 py-2 my-auto"
+        >
           Contact
-        </div>
+        </Link>
       </div>
-      <div className="gap-2 rounded-lg cursor-pointer self-stretch px-4 py-4 hidden lg:flex my-auto text-base font-medium tracking-widest leading-none text-white bg-primary min-h-[48px]">
+      <Link
+        href={"#demo"}
+        className="gap-2 rounded-lg cursor-pointer self-stretch px-4 py-4 hidden lg:flex my-auto text-base font-medium tracking-widest leading-none text-white bg-primary min-h-[48px]"
+      >
         Book a Demo
-      </div>
+      </Link>
     </div>
   );
 };

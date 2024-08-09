@@ -1,11 +1,28 @@
 import React from "react";
 import Header from "./Header";
+import DesignFlare2 from "./DesignFlare2";
+import DesignFlare1 from "./DesignFlare1";
+import DesignFlare4 from "./DesignFlare4";
 
 const Hero: React.FC = () => {
   return (
     <>
-      <div className="px-5 flex overflow-hidden relative flex-col items-center self-stretch w-full py-4 max-md:max-w-full">
-        <div className=" flex justify-center items-center content-center align-middle flex-col ">
+      <div className="px-5 flex overflow-visible  relative flex-col items-center self-stretch w-full py-4 max-md:max-w-full">
+        <div className=" absolute -top-11 -right-36 z-30">
+          {" "}
+          <DesignFlare4 />
+        </div>
+        <div className=" absolute  -top-48 right-20 z-30">
+          <DesignFlare1 />
+        </div>
+        <div className=" absolute -bottom-11 -left-36 z-30">
+          {" "}
+          <DesignFlare4 />
+        </div>
+        <div className=" absolute  -bottom-48 left-20 z-30">
+          <DesignFlare1 />
+        </div>
+        <div className=" flex justify-center  items-center content-center align-middle flex-col ">
           <div className=" mt-32 text-7xl font-bold text-center  w-full text-gray-900 max:w-[947px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
             The collaboration <span className="text-primary">platform </span>
             that transforms{" "}
@@ -38,7 +55,7 @@ const Hero: React.FC = () => {
         <img
           loading="lazy"
           src="/images/Frame 17.jpg"
-          className="object-cover  inset-0 size-full max-w-[1064px] rounded-lg mt-[91px]"
+          className="object-cover  z-40 inset-0 size-full max-w-[1064px] rounded-lg mt-[91px]"
         />
       </div>
     </>
